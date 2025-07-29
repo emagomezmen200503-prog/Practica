@@ -10,6 +10,10 @@ package main;
  */
 public class vuelo {
 
+    static void add(Vuelo vuelo) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 public class Vuelo {
 
         static void add(Vuelo vuelo) {

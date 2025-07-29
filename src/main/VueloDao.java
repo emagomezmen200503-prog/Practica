@@ -31,16 +31,6 @@ public class VueloDao {
             ResultSet rs = pst.executeQuery();
 
             while (rs.next()) {
-                Vuelos.add(new Vuelo(
-                        rs.getInt("id"),
-                        rs.getString("aerolinea"),
-                        rs.getString("origen"),
-                        rs.getString("destino"),
-                        rs.getString("fecha"),
-                        rs.getString("hora"),
-                        rs.getInt("espacios"),
-                        rs.getDouble("precio")
-                ));
             }
 
         } catch (SQLException e) {
