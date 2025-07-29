@@ -24,4 +24,31 @@ public class Vuelo {
     private int espacios;
     private double precio;
 
-   
+    public Vuelo(int id, String aerolinea, String origen, String destino, String fecha, String hora, int espacios, double precio) {
+        this.id = id;
+        this.aerolinea = aerolinea;
+        this.origen = origen;
+        this.destino = destino;
+        this.fecha = fecha;
+        this.hora = hora;
+        this.espacios = espacios;
+        this.precio = precio;
+    }
+
+    // Getters y Setters
+    }
+
+public class Reserva {
+    private int id;
+    private int idUsuario;
+    private int idVuelo;
+    private String fechaReserva;
+
+    public Reserva(int id, int idUsuario, int idVuelo, String fechaReserva) {
+        this.id = id;
+        this.idUsuario = idUsuario;
+        this.idVuelo = idVuelo;
+        this.fechaReserva = fechaReserva;
+    }
+}  
+}
