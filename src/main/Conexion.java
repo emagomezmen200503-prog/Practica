@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class Conexion {
 public class ConexionDB {
     private static final String URL = "jdbc:postgresql://localhost:5432/reservas";
-    private static final String USER = "postgres";
+    private static final String USER = "postgres";j
     private static final String PASSWORD = "tu_clave";
 
     public static Connection getConexion() throws SQLException {
